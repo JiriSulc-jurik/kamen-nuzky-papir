@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <title>Kámen – Nůžky – Papír – Tapír – Spock</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+
+  <div class="topbar">
+    <h1>Kámen – Nůžky – Papír – Tapír – Spock</h1>
+  </div>
+
+  <table class="center">
+    <tr>
+      <td colspan="2" class="skoreRadek">
+        Skóre: <span id="skore1">0</span> : <span id="skore2">0</span>
+      </td>
+    </tr>
+
+    <tr>
+      <td class="karta"><img id="obr1" src="0.png"></td>
+      <td class="karta"><img id="obr2" src="1.png"></td>
+    </tr>
+
+    <tr>
+      <td id="vitez1">Hráč 1</td>
+      <td id="vitez2">Hráč 2</td>
+    </tr>
+
+    <tr>
+      <td colspan="2" class="vyberNadpis">Vyber si svůj tah:</td>
+    </tr>
+
+    <tr>
+      <td colspan="2" class="vyberRadek">
+
+        <button onclick="volba1.value=0; hraj();"><img src="0.png"></button>
+        <button onclick="volba1.value=1; hraj();"><img src="1.png"></button>
+        <button onclick="volba1.value=2; hraj();"><img src="2.png"></button>
+        <button onclick="volba1.value=3; hraj();"><img src="3.png"></button>
+        <button onclick="volba1.value=4; hraj();"><img src="4.png"></button>
+
+        <input type="hidden" id="volba1" value="0">
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff0f5; /* světle růžové pozadí */
+  text-align: center;
+}
+
+/* horní pruh */
+.topbar {
+  background-color: #d87ca5;
+  padding: 15px 0;
+}
+
+h1 {
+  margin: 0;
+  color: white;
+  font-size: 28px;
+}
+
+/* tabulka */
+.center {
+  margin: auto;
+  margin-top: 30px;
+}
+
+/* skóre */
+.skoreRadek {
+  font-size: 22px;
+  font-weight: bold;
+  color: #b03060;
+  padding-bottom: 20px;
+}
+
+/* karty s obrázky */
+.karta img {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 12px;
+  border: 3px solid #f4b6c2;
+}
+
+/* text pod obrázky */
+#vitez1, #vitez2 {
+  font-size: 18px;
+  padding: 12px 0;
+}
+
+/* nadpis výběru */
+.vyberNadpis {
+  font-size: 18px;
+  font-weight: bold;
+  color: #b03060;
+  padding: 20px 0 10px;
+}
+
+/* spodní výběr */
+.vyberRadek button {
+  background-color: #f4b6c2;
+  border: none;
+  border-radius: 10px;
+  margin: 6px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+/* ikonky */
+.vyberRadek img {
+  width: 60px;
+  height: 60px;
+}
+
+/* jemný efekt při najetí */
+.vyberRadek button:hover {
+  background-color: #e89ab3;
+}
